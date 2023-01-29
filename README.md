@@ -4,3 +4,5 @@
 ### Code Climate badges:
 [![Maintainability](https://api.codeclimate.com/v1/badges/7289eeff44509135f2ff/maintainability)](https://codeclimate.com/github/dmsavvin/python-project-49/maintainability)
 
+### Installation and playing process demonstration
+[![asciicast](https://asciinema.org/a/weOnyiOErqFuYUVo404JisXEo.svg)](https://asciinema.org/a/weOnyiOErqFuYUVo404JisXEo)
