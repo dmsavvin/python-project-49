@@ -14,7 +14,7 @@ def gcd_problem_generator():
 def calc_problem_generator():
     first_number = random.randint(1, 100)
     second_number = random.randint(1, 100)
-    operator = random.choice(('+', '-', '*', '//' '**'))
+    operator = random.choice(('+', '-', '*', '//', '**'))
     problem_representation = f'{first_number} {operator} {second_number}'
     expected_answer = str(eval(problem_representation))
 
