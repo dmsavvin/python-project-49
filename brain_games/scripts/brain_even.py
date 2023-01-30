@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+'''This script starts even game'''
 from brain_games.games import GAMES
 from brain_games.play_game import play_game
 

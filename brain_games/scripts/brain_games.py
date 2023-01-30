@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+'''This script starts user welcoming dialog'''
 from brain_games import cli
 
 

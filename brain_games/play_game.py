@@ -1,8 +1,19 @@
 import prompt
 
 
-def play_game(game_manual, problem_generator, number_of_rounds):
+def play_game(game_manual, task_generator, number_of_rounds):
+    '''Implement the logic for the game specified with arguments
 
+    Function implements the logic of the playing process for the
+    game specified by the args.
+
+    Args:
+        game_manual (str): game rules description
+        task_generator (func): function generating the task and
+           the correct answer for each round of the game
+        number_of_rounds (int): maximum number of rounds to be
+            played in the game
+    '''
     print('Welcome to the Brain Games!')
     player_name = prompt.string('May I have your name? ')
     print(f'Hello, {player_name}!')
@@ -10,14 +21,19 @@ def play_game(game_manual, problem_generator, number_of_rounds):
     print(game_manual)
 
     for _ in range(number_of_rounds):
-        problem_representation, expected_answer = problem_generator()
-        print(f'Question: {problem_representation}')
+
+        task_repr, correct_answer = task_generator()
+
+        print(f'Question: {task_repr}')
         given_answer = prompt.string('Your answer: ')
-        if expected_answer != given_answer:
+
+        if correct_answer != given_answer:
             print(f"'{given_answer}' is wrong answer ;(. "
-                  f"Correct answer was '{expected_answer}'.")
+                  f"Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {player_name}!")
             break
+
         print('Correct!')
+
     else:
         print(f'Congratulations, {player_name}!')
