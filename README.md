@@ -13,19 +13,19 @@ The project implements the following brain teasing games:
 + prog - guess the missing term of the arithmetic progression
 
 To install on Linux use
+
 `$ `
 
 To play on Linux use
+
 `$ brain-calc` for calc
+
 `$ brain-even` for even
+
 `$ brain-gcd` for gcd
+
 `$ brain-prime` for prime
+
 `$ brain-progress` for prog
 
-
-### Demonstrations for processes of installation and playing
-+ [Process of installation and playing brain-even](https://asciinema.org/a/weOnyiOErqFuYUVo404JisXEo)
-+ [Process of playing brain-calc](https://asciinema.org/a/wMxcZBo6J1pBZt1fnZY6X1EEs)
-+ [Process of playing brain-gcd](https://asciinema.org/a/6Ymi45QrfxM6bN1eo5oI85MMC)
-+ [Process of playing brain-progression](https://asciinema.org/a/rrFkgOnzEfMFFQ5Xkof6zx4hb)
-+ [Process of playing brain-prime](https://asciinema.org/a/z59VPt3isKIY44CLW76xzErAd)
+See the following asciinema demonstration
