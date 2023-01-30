@@ -14,7 +14,7 @@ The project implements the following brain teasing games:
 
 To install on Linux use
 
-`$ `
+`$ python3 -m pip install --user git+https://github.com/dmsavvin/python-project-49.git`
 
 To play on Linux use
 
@@ -22,6 +22,8 @@ To play on Linux use
 + for even `$ brain-even`
 + for gcd `$ brain-gcd`
 + for prime `$ brain-prime`
-+ for prog `$ brain-progress`
++ for prog `$ brain-progression`
 
-See the following asciinema demonstration
+See the following asciinema demonstration for installation and playing process
+
+[https://asciinema.org/a/PLgqLgysYfHaFn0DE9loDLwq6](https://asciinema.org/a/PLgqLgysYfHaFn0DE9loDLwq6)
