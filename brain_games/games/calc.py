@@ -2,7 +2,7 @@
 import random
 
 _CALC_RANGE = (1, 50)
-_CALC_OPERATIONS = ('+', '-', '*', '//', '**')
+_CALC_OPERATIONS = ('+', '-', '*')
 '''Range of the values (both ends included) and set of operators
 for the calc game
 '''
