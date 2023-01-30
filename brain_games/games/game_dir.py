@@ -6,7 +6,7 @@ _MANUALS = {'gcd': "Find the greatest common divisor of given numbers.",
             'even': 'Answer "yes" if the number is even, otherwise answer "no".',
             'prime': ('Answer "yes" if given number is prime. Otherwise '
                       'answer "no".'),
-            'prog': "What number is missing in this progression?"
+            'prog': "What number is missing in the progression?"
             }
 '''Manuals for the games'''
 
