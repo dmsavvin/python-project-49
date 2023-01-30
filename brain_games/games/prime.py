@@ -7,6 +7,8 @@ _PRIME_RANGE = (1, 100)
 
 def _is_prime(num):
     '''Return True if num is prime False otherwise'''
+    if num == 1:
+        return False
     for n in range(2, int(num ** 0.5) + 1):
         if num % n == 0:
             return False
