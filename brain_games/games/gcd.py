@@ -17,7 +17,7 @@ def get_gcd_task():
     '''
     first_number = random.randint(*_GCD_RANGE)
     second_number = random.randint(*_GCD_RANGE)
-    task_repr = f'{first_number}, {second_number}'
+    task_repr = f'{first_number} {second_number}'
     correct_answer = str(math.gcd(first_number, second_number))
 
     return task_repr, correct_answer
