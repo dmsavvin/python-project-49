@@ -3,7 +3,7 @@ from brain_games.games import calc, even, gcd, prime, prog
 
 _MANUALS = {'gcd': "Find the greatest common divisor of given numbers.",
             'calc': "What is the result of the expression?",
-            'even': 'Answer "yes" if number even, otherwise answer "no".',
+            'even': 'Answer "yes" if the number is even, otherwise answer "no".',
             'prime': ('Answer "yes" if given number is prime. Otherwise '
                       'answer "no".'),
             'prog': "What number is missing in this progression?"
