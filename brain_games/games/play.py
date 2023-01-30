@@ -1,11 +1,8 @@
 import prompt
 
 
-def play_game(game_manual, task_generator, number_of_rounds):
+def play(game_manual, task_generator, number_of_rounds):
     '''Implement the logic for the game specified with arguments
-
-    Function implements the logic of the playing process for the
-    game specified by the args.
 
     Args:
         game_manual (str): game rules description

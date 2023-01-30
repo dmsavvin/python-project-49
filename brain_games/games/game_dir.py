@@ -1,10 +1,5 @@
-'''This module provides description for each game
-
-Each game description is a tuple of three elements: [0] manual string explaining
-game rules, [1] task generator function returning the task representation and
-the correct answer [2] maximum number of rounds in the game
-'''
-from brain_games import task_generators
+'''Module provides description for each game'''
+from brain_games.games import calc, even, gcd, prime, prog
 
 _MANUALS = {'gcd': "Find the greatest common divisor of given numbers.",
             'calc': "What is the result of the expression?",
@@ -15,11 +10,11 @@ _MANUALS = {'gcd': "Find the greatest common divisor of given numbers.",
             }
 '''Manuals for the games'''
 
-_GENERATORS = {'gcd': task_generators.gcd_task_generator,
-               'calc': task_generators.calc_task_generator,
-               'even': task_generators.even_task_generator,
-               'prime': task_generators.prime_task_generator,
-               'prog': task_generators.prog_task_generator
+_GENERATORS = {'gcd': gcd.get_gcd_task,
+               'calc': calc.get_calc_task,
+               'even': even.get_even_task,
+               'prime': prime.get_prime_task,
+               'prog': prog.get_prog_task
                }
 '''Task generator functions for the games'''
 
