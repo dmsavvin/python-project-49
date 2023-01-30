@@ -18,14 +18,10 @@ To install on Linux use
 
 To play on Linux use
 
-`$ brain-calc` for calc
-
-`$ brain-even` for even
-
-`$ brain-gcd` for gcd
-
-`$ brain-prime` for prime
-
-`$ brain-progress` for prog
++ for calc `$ brain-calc`
++ for even `$ brain-even`
++ for gcd `$ brain-gcd`
++ for prime `$ brain-prime`
++ for prog `$ brain-progress`
 
 See the following asciinema demonstration
